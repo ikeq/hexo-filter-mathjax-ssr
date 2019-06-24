@@ -1,0 +1,26 @@
+{
+  "name": "hexo-filter-mathjax",
+  "version": "0.1.0",
+  "description": "Pre-render MathJax",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ike-c/hexo-filter-mathjax.git"
+  },
+  "keywords": [
+    "hexo",
+    "mathjax",
+    "prerender",
+    "mathjax-node",
+    "hexo-filter"
+  ],
+  "author": "ike-c <9206414+ike-c@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ike-c/hexo-filter-mathjax/issues"
+  },
+  "homepage": "https://github.com/ike-c/hexo-filter-mathjax#readme",
+  "dependencies": {
+    "mathjax-node": "^2.1.1"
+  }
+}
