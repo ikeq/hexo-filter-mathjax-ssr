@@ -1,11 +1,13 @@
-# hexo-filter-mathjax
+# hexo-filter-mathjax-ssr
+
+[![npm](https://img.shields.io/npm/v/hexo-filter-mathjax-ssr.svg)](https://www.npmjs.com/package/hexo-filter-mathjax-ssr)
 
 Pre-render MathJax into svg using [mathjax-node].
 
 ## Installation
 
 ``` bash
-$ npm install hexo-filter-mathjax --save
+$ npm install hexo-filter-mathjax-ssr --save
 ```
 
 ## Options
@@ -14,8 +16,8 @@ You can configure this plugin in `_config.yml`.
 
 ``` yaml
 mathjax:
-  inlineQuote: ['\$', '\$']
-  blockQuote: ['\$\$', '\$\$']
+  inlineQuote: $ # or `[$, $]`
+  blockQuote: $$ # or `[$$, $$]`
   MathJax:
     SVG:
       font: Gyre-Pagella
