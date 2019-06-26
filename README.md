@@ -4,6 +4,10 @@
 
 Pre-render MathJax into svg using [mathjax-node].
 
+## Preview
+
+- [Examples](https://blog.oniuo.com/post/math-jax-ssr-example)
+
 ## Installation
 
 ``` bash
@@ -16,6 +20,7 @@ You can configure this plugin in `_config.yml`.
 
 ``` yaml
 mathjax:
+  disable: false
   inlineQuote: $ # or `[$, $]`
   blockQuote: $$ # or `[$$, $$]`
   MathJax:
@@ -23,9 +28,10 @@ mathjax:
       font: Gyre-Pagella
 ```
 
-- **inlineQuote** - Similar to `MathJax.inlineMath`, but only support one pair.
-- **blockQuote** - Similar to `MathJax.blockMath`, but only support one pair.
-- **MathJax** - MathJax configuration, see [svg processor][svg-processor].
+- **disable** - Disable plugin, default `false`.
+- **inlineQuote** - Similar to `MathJax.inlineMath`, but only support one pair, default `$`.
+- **blockQuote** - Similar to `MathJax.blockMath`, but only support one pair, default `$$`.
+- **MathJax** - MathJax configuration, only support some of the svg options, see [svg processor][svg-processor].
 
 ## License
 
