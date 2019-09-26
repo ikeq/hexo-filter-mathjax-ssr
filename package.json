@@ -1,11 +1,11 @@
 {
   "name": "hexo-filter-mathjax-ssr",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pre-render MathJax",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ike-c/hexo-filter-mathjax-ssr.git"
+    "url": "git+https://github.com/ikeq/hexo-filter-mathjax-ssr.git"
   },
   "keywords": [
     "hexo",
@@ -14,12 +14,12 @@
     "mathjax-node",
     "hexo-filter"
   ],
-  "author": "ike-c <9206414+ike-c@users.noreply.github.com>",
+  "author": "ikeq <9206414+ikeq@users.noreply.github.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ike-c/hexo-filter-mathjax-ssr/issues"
+    "url": "https://github.com/ikeq/hexo-filter-mathjax-ssr/issues"
   },
-  "homepage": "https://github.com/ike-c/hexo-filter-mathjax-ssr#readme",
+  "homepage": "https://github.com/ikeq/hexo-filter-mathjax-ssr#readme",
   "dependencies": {
     "mathjax-node": "^2.1.1"
   }
